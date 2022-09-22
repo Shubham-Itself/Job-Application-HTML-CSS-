@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+   
+}
+
+body{
+    background-color: grey;
+}
+.container-main{
+    font-size: 25px;
+    max-width: 800px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgba(1, 1, 1, 0.5);
+
+
+}
+
+.title{
+    font-size: 25px;
+}
+
+.form-container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-container{
+
+    display: grid;
+    padding: 20px;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.grid-item{
+
+ 
+    font-size: 30px;
+    
+    
+}
+
+
+#item-5{
+    grid-column: 1/3 ;
+}
+
+input{
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+}
+
+.option{
+    width: 300px;
+    height: 50px;
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+}
+
+#cv{
+   
+    padding: 12px;
+}
+
+label{
+    font-size: 25px;
+}
+
+input , select , option{
+    border: 1px solid grey;
+}
+
+.button{
+   position: relative;
+   left: 163%;
+    width: 100px;
+
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+
+    
+}
+
+.button:hover{
+   background-image: linear-gradient(white,grey  );
+}
